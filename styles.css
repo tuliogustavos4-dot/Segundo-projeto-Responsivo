@@ -1,0 +1,123 @@
+*      {margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+header{
+    margin: 44px 76px;
+    color: #989d9c;
+    text-align: left;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.link-header {
+    margin-left: 23px;
+    cursor: pointer;
+    }
+
+    .button-logIn {
+        color: #ffffff;
+       
+        font-family: 'Montserrat-SemiBold', sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        margin-left: 23px;
+        background: #665ae1;
+        border-radius: 20.5px;
+        width: 130px;
+        height: 41px;
+        position: relative;
+        border: none;
+        cursor: pointer;
+}
+
+.img-logo {
+    display: inline-block;
+    margin: 144px 86px 0 125px;
+}
+
+.container-rigth{
+    display: inline-block;
+}
+
+h1 {
+    color: #515151;
+    text-align: left;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    position: relative;
+}
+
+h2 {
+    color: #515151;
+    text-align: left;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 58px;
+    font-weight: 500;
+    position: relative;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    color: #848484;
+    text-align: justify;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    margin-top: 65px;
+    line-height: 1.3;px
+}
+
+.button-explore{ 
+    background: #adff00;
+    border-radius: 32px;
+    width: 239px;
+    height: 64px;
+    position: relative;
+    margin: 65px 0 243px;
+    border: none;
+
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 1.00);
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        display: none;
+    }
+    .img-logo {
+        width: 354px;
+        height: 317px ;
+        margin: 150px 10px 0 30
+                                                        px;
+
+    }
+
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        display: none;
+    }
+
+    .button-explore {
+        margin: 20px 85px;
+    }
+}
+
+
+
+    
