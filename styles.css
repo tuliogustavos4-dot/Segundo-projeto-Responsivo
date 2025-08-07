@@ -60,7 +60,7 @@ h2 {
 }
 
 p {
-    width: 515px;
+    width: 700px;
     height: 87px;
     color: #848484;
     text-align: justify;
@@ -73,12 +73,12 @@ p {
 }
 
 .button-explore{ 
-    background: #f2f221;
+    background: #adff00;
     border-radius: 32px;
     width: 239px;
     height: 64px;
     position: relative;
-    margin: 65px 0 243px;
+    margin: 400px 0 243px;
     border: none;
 
     font-size: 28px;
